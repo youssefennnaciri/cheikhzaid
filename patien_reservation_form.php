@@ -41,7 +41,7 @@
       -->
               <div class="sidebar-wrapper">
                   <div class="logo">
-                      <a href="location: https://cheikhzaid.herokuapp.com/patien_reservation_form.php" class="simple-text">
+                      <a href="https://cheikhzaid.herokuapp.com/patien_reservation_form.php" class="simple-text">
                           Medcien
                       </a>
                   </div>

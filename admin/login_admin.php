@@ -150,7 +150,7 @@ span.psw {
 
     <div class="container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="location: https://cheikhzaid.herokuapp.com/kkkk.php">password?</a></span>
+      <span class="psw">Forgot <a href="https://cheikhzaid.herokuapp.com/kkkk.php">password?</a></span>
     </div>
   </form>
 </div>

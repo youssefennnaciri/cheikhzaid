@@ -103,7 +103,7 @@ side nav
     -->
             <div class="sidebar-wrapper">
                 <div class="logo">
-                    <a href="location: https://cheikhzaid.herokuapp.com/admin/admin_espace.php" class="simple-text">
+                    <a href="https://cheikhzaid.herokuapp.com/admin/admin_espace.php" class="simple-text">
                         Admin
                     </a>
                 </div>
