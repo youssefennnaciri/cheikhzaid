@@ -101,7 +101,7 @@ input[type=submit]:hover {
     -->
             <div class="sidebar-wrapper">
                 <div class="logo">
-                    <a href="http://www.creative-tim.com" class="simple-text">
+                    <a  class="simple-text">
                         Admin
                     </a>
                 </div>
