@@ -2,7 +2,7 @@
 <?php
   if (!isset($_SESSION['username'])) {
   	$_SESSION['msg'] = "You must log in first";
-  	header('https://cheikhzaid.herokuapp.com/login_scan.php');
+  	header('location: https://cheikhzaid.herokuapp.com/login_scan.php');
   }
 ?>
 <!DOCTYPE html>

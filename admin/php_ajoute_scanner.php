@@ -14,6 +14,6 @@ $query->bindParam(':nombredeplacedisponible', $_POST['nombredeplacedisponible'])
 $query->bindParam(':datee', $_POST['datee']);
 $query->bindParam(':description', $_POST['description']);
 $query->execute();
-header("https://cheikhzaid.herokuapp.com/cheikhzaid/admin/admin_espace.php");
+header("location: https://cheikhzaid.herokuapp.com/admin/admin_espace.php");
 
 ?>

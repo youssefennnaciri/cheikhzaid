@@ -12,5 +12,5 @@ $query = $bdd->prepare("DELETE FROM medciens WHERE id=:id");
    $query->bindParam(':id', $_GET['id']);
          $query->execute();
 
-header("https://cheikhzaid.herokuapp.com/cheikhzaid/admin/table_medciens.php");
+header("location: https://cheikhzaid.herokuapp.com/admin/table_medciens.php");
 ?>

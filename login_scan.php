@@ -69,7 +69,7 @@
         <ul>
           <li ><a href="index.php">Home</a></li>
           <li><a href="index.php#about">About</a></li>
-          <li class="active"><a href="https://cheikhzaid.herokuapp.com/cheikhzaid/login_scan.php">Login</a></li>
+          <li class="active"><a href="location: https://cheikhzaid.herokuapp.com/login_scan.php">Login</a></li>
           <li><a href="index.php#contact">Contact</a></li>
 
         </ul>

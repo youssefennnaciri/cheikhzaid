@@ -14,7 +14,7 @@ $query = $bdd->prepare("SELECT * FROM admin WHERE username = :userg AND password
          $query->execute();
          $count = $query->rowCount();
          if($count==1){
-         	header("https://cheikhzaid.herokuapp.com/cheikhzaid/admin/admin_espace.php");;
+         	header("location: https://cheikhzaid.herokuapp.com/admin/admin_espace.php");;
              }
              else
              	{

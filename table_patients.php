@@ -2,7 +2,7 @@
 <?php
   if (!isset($_SESSION['username'])) {
   	$_SESSION['msg'] = "You must log in first";
-  	header('https://cheikhzaid.herokuapp.com/login_scan.php');
+  	header('location: https://cheikhzaid.herokuapp.com/login_scan.php');
   }
 ?>
 <!DOCTYPE html>
@@ -125,7 +125,7 @@
                 <td>'.$user['malade'].'</td>
                 <td>'.$user['numero'].'</td>
 
-							    <td><a href="https://cheikhzaid.herokuapp.com/cheikhzaid/php_delete_patients_reser.php?cin='.$user['CIN'].'" class="btn btn-danger btn-xs">supprimer</a></td>
+							    <td><a href="location: https://cheikhzaid.herokuapp.com/php_delete_patients_reser.php?cin='.$user['CIN'].'" class="btn btn-danger btn-xs">supprimer</a></td>
 
 
 							</tr>

@@ -2,7 +2,7 @@
 <?php
   if (!isset($_SESSION['username'])) {
   	$_SESSION['msg'] = "You must log in first";
-  	header('https://cheikhzaid.herokuapp.com/../login_scan.php');
+  	header('location: https://cheikhzaid.herokuapp.com/../login_scan.php');
   }
 ?>
 <!DOCTYPE html>
@@ -103,7 +103,7 @@ side nav
     -->
             <div class="sidebar-wrapper">
                 <div class="logo">
-                    <a href="https://cheikhzaid.herokuapp.com/cheikhzaid/admin/admin_espace.php" class="simple-text">
+                    <a href="location: https://cheikhzaid.herokuapp.com/admin/admin_espace.php" class="simple-text">
                         Admin
                     </a>
                 </div>

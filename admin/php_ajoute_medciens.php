@@ -16,5 +16,5 @@ $query->bindParam(':password', $_POST['password']);
 $query->bindParam(':fullname', $_POST['fullname']);
 $query->bindParam(':speciality', $_POST['speciality']);
 $query->execute();
-header("https://cheikhzaid.herokuapp.com/cheikhzaid/admin/table_medciens.php");
+header("location: https://cheikhzaid.herokuapp.com/admin/table_medciens.php");
 ?>

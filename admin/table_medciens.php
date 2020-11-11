@@ -2,7 +2,7 @@
 <?php
   if (!isset($_SESSION['username'])) {
   	$_SESSION['msg'] = "You must log in first";
-  	header('https://cheikhzaid.herokuapp.com/login_scan.php');
+  	header('location: https://cheikhzaid.herokuapp.com/login_scan.php');
   }
 ?>
 <?php
@@ -132,8 +132,8 @@ catch(Exception $e)
                             $fullname=htmlspecialchars($row['fullname']);
                             $speciality=htmlspecialchars($row['speciality']);
                             ?>
-                         <td> <?php echo " <a href='https://cheikhzaid.herokuapp.com/cheikhzaid/admin/php_delete_meciens.php?id=". $row['id']. "'>supprimer</a>" ?></td>
-                         <td> <?php echo " <a href='https://cheikhzaid.herokuapp.com/cheikhzaid/admin/updateform_medciens.php?id=". $id. "'>update</a>" ?></td>
+                         <td> <?php echo " <a href='location: https://cheikhzaid.herokuapp.com/admin/php_delete_meciens.php?id=". $row['id']. "'>supprimer</a>" ?></td>
+                         <td> <?php echo " <a href='location: https://cheikhzaid.herokuapp.com/admin/updateform_medciens.php?id=". $id. "'>update</a>" ?></td>
                         </tr>
                     <?php endwhile; ?>
                 </tbody>

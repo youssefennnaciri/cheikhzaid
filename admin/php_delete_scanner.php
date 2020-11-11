@@ -12,5 +12,5 @@ $query = $bdd->prepare("DELETE FROM scanners WHERE id=:id");
    $query->bindParam(':id', $_GET['id']);
          $query->execute();
 
-header("https://cheikhzaid.herokuapp.com/cheikhzaid/admin/table_scanners.php");
+header("location: https://cheikhzaid.herokuapp.com/admin/table_scanners.php");
 ?>

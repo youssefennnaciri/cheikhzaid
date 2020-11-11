@@ -16,5 +16,5 @@ $query->bindParam(':fullname', $_POST['description']);
 $query->bindParam(':id', $_POST['id']);
 $query->execute();
 
-header("https://cheikhzaid.herokuapp.com/cheikhzaid/admin/table_scanners.php");
+header("location: https://cheikhzaid.herokuapp.com/admin/table_scanners.php");
 ?>

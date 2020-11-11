@@ -51,7 +51,7 @@ if (isset($_POST['reg_user'])) {
   	mysqli_query($db, $query);
   	$_SESSION['username'] = $username;
   	$_SESSION['success'] = "You are now logged in";
-  	header('https://cheikhzaid.herokuapp.com/index.php');
+  	header('location: https://cheikhzaid.herokuapp.com/index.php');
   }
 
 }
@@ -74,7 +74,7 @@ if (isset($_POST['login_user'])) {
   	if (mysqli_num_rows($results) == 1) {
   	  $_SESSION['username'] = $username;
   	  $_SESSION['success'] = "You are now logged in";
-  	  header('https://cheikhzaid.herokuapp.com/index.php');
+  	  header('location: https://cheikhzaid.herokuapp.com/index.php');
   	}else {
   		array_push($errors, "Wrong username/password combination");
   	}
@@ -215,7 +215,7 @@ while ($donnees = $req->fetch())
 $req->closeCursor();
 
 
-header('https://cheikhzaid.herokuapp.com/table_patients.php?cin='.$cin);
+header('location: https://cheikhzaid.herokuapp.com/table_patients.php?cin='.$cin);
 
 
 
@@ -231,7 +231,7 @@ header('https://cheikhzaid.herokuapp.com/table_patients.php?cin='.$cin);
             VALUES('$cin','$nom','$prenom','$scanner',$med,'$datee','$malade',1)";
   mysqli_query($db, $query);
   echo "patient(e) ajouter";
- header('https://cheikhzaid.herokuapp.com/table_patients.php');
+ header('location: https://cheikhzaid.herokuapp.com/table_patients.php');
 if ($db->query($query) === TRUE) {
   echo "New record created successfully";
 } else {
@@ -270,7 +270,7 @@ if(isset($_POST['sus'])){
         $_SESSION['numero'] = $row['numero'];
 
         $_SESSION['success'] = "You are now logged in";
-        header('https://cheikhzaid.herokuapp.com/patient_session.php');
+        header('location: https://cheikhzaid.herokuapp.com/patient_session.php');
         //echo " welcome";
       }else {
         array_push($errors, "Wrong username/password combination");
@@ -301,7 +301,7 @@ if(isset($_POST['sus'])){
         $_SESSION['id'] = $row["id"];
 
 
-        header('https://cheikhzaid.herokuapp.com/patien_reservation_form.php');
+        header('location: https://cheikhzaid.herokuapp.com/patien_reservation_form.php');
         //echo " welcome";
       }else {
         array_push($errors, "Wrong username/password combination");
@@ -328,7 +328,7 @@ if(isset($_POST['sus'])){
       if (mysqli_num_rows($results) == 1) {
         $_SESSION['username'] = $username;
         $_SESSION['success'] = "You are now logged in";
-        header('https://cheikhzaid.herokuapp.com/admin/admin_espace.php');
+        header('location: location: https://cheikhzaid.herokuapp.com/admin/admin_espace.php');
         //echo " welcome";
       }else {
         array_push($errors, "Wrong username/password combination");

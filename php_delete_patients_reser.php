@@ -11,7 +11,7 @@ $query = $bdd->prepare("DELETE FROM patient WHERE cin=:cin");
    $query->bindParam(':cin', $_GET['cin']);
          $query->execute();
 
-header("https://cheikhzaid.herokuapp.com/cheikhzaid/table_patients.php");
+header("location: https://cheikhzaid.herokuapp.com/table_patients.php");
 
 
 ?>

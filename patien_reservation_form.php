@@ -2,7 +2,7 @@
 <?php
   if (!isset($_SESSION['username'])) {
   	$_SESSION['msg'] = "You must log in first";
-  	header('https://cheikhzaid.herokuapp.com/login_scan.php');
+  	header('location: https://cheikhzaid.herokuapp.com/login_scan.php');
   }
 ?>
 <!DOCTYPE html>
@@ -41,7 +41,7 @@
       -->
               <div class="sidebar-wrapper">
                   <div class="logo">
-                      <a href="https://cheikhzaid.herokuapp.com/cheikhzaid/patien_reservation_form.php" class="simple-text">
+                      <a href="location: https://cheikhzaid.herokuapp.com/patien_reservation_form.php" class="simple-text">
                           Medcien
                       </a>
                   </div>
