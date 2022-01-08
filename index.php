@@ -249,7 +249,7 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/">Ennaciri & elfakhar</a>
+          Designed by <a href="https://www.linkedin.com/in/youssef-ennaciri-7897b6170/">Youssef ENNACIRI</a>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
